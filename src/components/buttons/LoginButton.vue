@@ -31,7 +31,7 @@
   font-family: "Roboto-Regular";
   font-size: 25px;
   font-weight: 600;
-  left: 40px;
+  left: 2px;
   letter-spacing: 0;
   line-height: 25.6px;
   position: absolute;
