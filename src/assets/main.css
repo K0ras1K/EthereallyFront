@@ -1,0 +1,23 @@
+@import './base.css';
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    background: #20232A;
+    background-size: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+}
