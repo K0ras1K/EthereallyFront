@@ -1,29 +1,25 @@
-# ethereally-frontend
+# Описание проекта
 
-This template should help get you started developing with Vue 3 in Vite.
+Этот проект создан с использованием фреймворка Vue. Он представляет собой сайт, который позволяет пользователям просматривать и присоединяться к задачам.
 
-## Recommended IDE Setup
+## Установка
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Для установки проекта необходимо выполнить следующие шаги:
 
-## Customize configuration
+1. Склонировать репозиторий с помощью команды git clone https://github.com/username/repo.git
+2. Перейти в папку проекта с помощью команды cd repo
+3. Установить зависимости с помощью команды npm install
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Запуск
 
-## Project Setup
+Для запуска проекта необходимо выполнить следующие шаги:
 
-```sh
-npm install
-```
+1. Перейти в папку проекта с помощью команды cd repo
+2. Запустить проект с помощью команды npm run serve
+3. Открыть сайт в браузере по адресу http://localhost:5173
 
-### Compile and Hot-Reload for Development
+## Использование
 
-```sh
-npm run dev
-```
+При открытии сайта пользователи могут просмотреть доступные задачи и присоединиться к ним, если они соответствуют требованиям.
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Для присоединения к задаче необходимо нажать на кнопку "Join" рядом с ней. После этого будет отправлен запрос на сервер для регистрации пользователя на задаче.
